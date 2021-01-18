@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+#msgid img{
+width:100px;heigth:100px;
+}
+
+.btn{
+    font-family: system-ui;
+    font-weight: bold;   
+    border: 1px solid gray; 
+    border-radius: 20px;   
+    display: inline-block;
+    padding: 5px 30px;  
+    min-width: 90px;
+    text-align: center;
+
+    text-decoration: none;     
+    color: #fff; 
+    background: gray;
+
+}
+.btn:hover {
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    background: linear-gradient(to bottom, #fcfff4, #e9e9ce); 
+    color: gray;
+    background: transparent;
+}
+
+
+#msgid img{
+	margin:5px 0;
+	height:250px;
+	width:250px;
+}
+
+a.custom-card,
+a.custom-card:hover {
+  color: inherit;
+}
+
+.container{
+	padding: 3em 3em 9em 3em;
+}
+.container.np{
+	padding: 3em 3em 0 3em;
+	text-align:center;
+}
+.container-fluid{
+	background: rgb(181,131,141);
+	background: linear-gradient(0deg, rgba(181,131,141,1) 0%, rgba(181,131,141,1) 5%, rgba(255,205,178,1) 45%);
+}
+body{
+	background: rgba(181,131,141,1);
+}
+table{
+	background:rgba(255,255,255,0.75);
+}
+.btn{
+	background:#6D6875;
+}
+.bg-light{
+	background:#FFCDB2 !important;
+}
+.navbar-brand{
+	font-family: 'Great Vibes', cursive;
+	font-size:42px;
+}
+
+#menu{
+	width:100%;
+}
+ 

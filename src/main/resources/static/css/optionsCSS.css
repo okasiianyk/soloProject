@@ -1,0 +1,69 @@
+@charset "UTF-8";
+*{
+	padding:0;
+	margin:0;
+}
+html { 
+	overflow-y: hidden;
+	background:black;
+ }
+
+.myContainer{
+	position:fixed;
+	top:0;
+	right:0;
+	left:0;
+	bottom:0;
+   display:flex;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+}
+
+.myContainer div.card{
+	height:100%;
+	border:1px solid black;
+	width: 50%;
+	font-family: 'Monsieur La Doulaise', cursive;
+	font-size:72px;
+}
+
+.card-body{
+	background:transparent;
+	height:100%;
+	width: 100%;
+}
+
+.card-body:hover{
+	animation-name: example;
+  	animation-duration: 2s;
+  	background-color: rgba(0,0,0,0.6);
+}
+
+
+@keyframes example {
+  from {background-color: transparent;}
+  to {background-color: rgba(0,0,0,0.6);}
+}
+
+h5{
+	color:rgba(255,255,255,0);
+	height:100%;
+	width: 100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+h5:hover{
+	animation-name: example2;
+  	animation-duration: 2s;
+  	color:rgba(255,255,255,1);
+}
+
+
+@keyframes example2 {
+  from {color:rgba(255,255,255,0);}
+  to {color: rgba(255,255,255,1);}
+}
+
+

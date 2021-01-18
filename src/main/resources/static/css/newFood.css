@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+.container-fluid {
+    z-index: -100;
+    width: 100%;
+    padding-top:45%;
+}
+
+.container{
+	background: rgba(0,0,0,0.7);
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 4;
+    display:flex;
+    justify-content:center;
+  right:0;
+  bottom:0;
+  
+  font-size:40px;
+  color:rgba(255,255,255, 0.9);
+}
+
+.container label{
+	display:inline-block;
+	width:250px;
+	margin-bottom:15px;
+	margin-left:10%;
+}
+
+.container input, .container select{
+	height:35px;
+	width: 200px;
+	background: rgba(0,0,0,0.3);
+	color:rgba(255,255,255, 0.3);
+	-webkit-box-shadow: 0px 0px 10px 0px #A5A5A5; 
+	box-shadow: 0px 0px 10px 0px #A5A5A5;
+	
+}
+
+.btn{
+	margin-top:40px;
+	margin-left:30%;
+	
+}
+
+.btn:hover{
+	background: rgba(0,0,0,0.7);
+	color:rgba(255,255,255, 0.8);
+}
+.container h1{
+	margin-top:90px;
+}
+
+.background {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+}
+.background img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
+}
+
+#msgid img{
+	width:10%;
+	height:10%;
+}

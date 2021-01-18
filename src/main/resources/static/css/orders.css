@@ -1,0 +1,181 @@
+@charset "UTF-8";
+
+html{
+	/*overflow-y: hidden;*/
+	background:black;
+}
+.cont1{
+	z-index: -100;
+    width: 100%;
+    /*padding-top:45%;*/
+}
+
+.nav{
+	background:rgba(63,40,40,0.7);
+}
+
+.nav_a{
+	z-index:300;
+}
+.fullscreen-bg__video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right:0;
+    width:100%;
+    bottom:0;
+}
+.content{
+	position: absolute;
+    z-index:200;
+    top:100px;
+}
+.cont2{
+	background: rgba(0,0,0,0.6);
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 4;
+  right:0;
+  bottom:0;
+}
+ *{
+ 	margin:0;
+ 	padding:0;
+ }
+.nav_a{
+	margin:1%;
+	width:98%;
+}
+
+.fullscreen-bg {
+    /*overflow: hidden;*/
+    z-index: -100;
+    /*position: relative;*/
+    /*height: 100%;*/
+    width: 100%;
+    padding-top:45%;
+}
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right:0;
+    width:100%;
+  bottom:0;
+}
+.overlay {
+    background: rgba(0,0,0,0.6);
+    position: fixed;
+    z-index:4;
+    top:0;
+    left:0;
+
+  right:0;
+  bottom:0;
+  padding-top:100px;
+}
+
+@media (max-width: 767px) {
+    .fullscreen-bg {
+        background: url('../images/Cakes.jpg')  no-repeat;
+		background-size: cover;
+    }
+    .fullscreen-bg__video {
+        display: none;
+    }
+}
+
+.table{
+	color:white;
+	width:90%;
+	margin:0 5%;
+	text-align:left;
+}
+
+.table table, tbody{
+	width:100%;
+}
+
+table th{
+	width:25%;
+	
+	}
+table th:first-child {width:5%;}
+th:nth-child(2){width:15%;}
+th:nth-child(3){width:40%;}
+th:nth-child(4){width:20%;}
+th:last-child {width:20%;}
+
+.btn, .btn_a{
+	display:block;
+	color:white;
+	text-decoration:none;
+	padding:8px 15px;
+	border:1px solid white;
+	-webkit-box-shadow: 0px 0px 10px 0px #A5A5A5; 
+	box-shadow: 0px 0px 10px 0px #A5A5A5;
+	
+	text-align:center;
+	font-weight:bold;
+	margin-left:5%;
+	margin-top:20px;
+}
+
+.btn{
+	width:15%;
+}
+.table{
+	border:1px solid transparent;
+	-webkit-box-shadow: 0px 0px 10px 0px #A5A5A5; 
+	box-shadow: 0px 0px 10px 0px #A5A5A5;
+	
+}
+
+.table th, .table td{
+	border:1px solid transparent;
+	border-collapse:collapse;
+	border-bottom:1px solid white;
+	padding:20px;
+	-webkit-box-shadow: 0px 0px 10px 0px #A5A5A5; 
+	box-shadow: 0px 0px 10px 0px #A5A5A5;
+}
+
+.tipsForm{
+	margin-left:30%;
+	/*background: rgba(255,255,255,0.3);*/
+	color:white;
+	margin-top:20px;
+	padding:10px;
+	display:flex;
+	justify-content:center;
+	width:40%;
+	font-size:24px;
+	-webkit-box-shadow: 0px 0px 10px 0px #A5A5A5; 
+	box-shadow: 0px 0px 10px 0px #A5A5A5;
+}
+
+.tipsForm label input{
+	height:40%;
+	font-size:20px;
+	color: white;
+	border:1px solid white;
+	background:rgba(255,255,255,0.4);
+	z-index:10;
+	-webkit-box-shadow: 0px 0px 10px 0px #A5A5A5; 
+	box-shadow: 0px 0px 10px 0px #A5A5A5;
+}
+
+.tipsForm button{
+	margin-left: 35%;
+    margin-bottom: 5px;
+    width: 50%;
+    color: white;
+    font-size: 15px;
+    border:1px solid white;
+	background:rgba(190,150,150,0.3);
+	z-index:10;
+	-webkit-box-shadow: 0px 0px 10px 0px #A5A5A5; 
+	box-shadow: 0px 0px 10px 0px #A5A5A5;
+}
+
